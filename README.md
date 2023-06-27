@@ -30,7 +30,7 @@ vibeH.exe "continuousPan.mp4" 1
 
 Environment
 --------------------------------------------------------------------------------
-Windows OS, OpenCV 3.4.2
+Windows OS, OpenCV 3.4.2. This code does not require a training procedure and GPU.
 
 
 Related Projects 
