@@ -41,9 +41,9 @@ Related Projects
 --------------------------------------------------------------------------------
 
 * https://github.com/vcg-uvic/fastMCD
-  - This is the base paper for our research, and the source code is publicly available (C++, Python).
+  - This is the base implementation for our research, and the source code is publicly available (C++, Python).
 
-* https://github.com/CansenJIANG/SCBU
+* <a href="https://github.com/CansenJIANG/SCBU">Scene Conditional Background Modeling for Moving Camera</a> 
   - This is the executable file for the results of a paper published in Pattern Recognition Letters in 2017, which supports the feature of foreground saving.
 
 
