@@ -1,78 +1,65 @@
 # ViBe-H
-This repository contains the windows binary (.exe) that produces the background results of ViBe algorithm + Motion compensation via homography.
+This repository houses the Windows executable (.exe) that implements the ViBe algorithm with additional motion compensation via homography, the foundation of our background results. 
+The ViBe algorithm is a robust background modeling method that operates based on sample consensus, performing optimally with stationary cameras. Our extension to this algorithm involves the integration of motion compensation derived from homography, calculated from two successive frames.
 
-ViBe alogorithm is a background modeling method through the sample consensus, and it works well on the stationary camera.
-We extend this ViBe algorithm by adopting the motion compensation from the Homography calculated by two consecutive frames.
-
-Details are provided the following paper: <a href="">Link</a>
+Further details regarding this implementation are described in our research paper, available here: <a href="">Link</a>
 
 
-About the test video
+
+
+Usage
+--------------------------------------------------------------------------------
+First, open your Windows terminal, navigate to the location where the .exe file is located, and execute the following command:
+
+vibeH.exe <video_path> <option>
+
+<option>
+0: Displays the original frame and background image. 
+  
+1: A "result" directory is created, and several result files (jpeg images) are saved. Display off.
+
+Example:
+
+```bash
+vibeH.exe "woman.mp4" 0
+```
+
+Environment
+--------------------------------------------------------------------------------
+Windows OS, OpenCV 3.4.2
+
+
+Related Projects 
+--------------------------------------------------------------------------------
+* https://github.com/vcg-uvic/fastMCD
+ - This is the base paper for our research, and the source code is publicly available (C++, Python).
+
+* https://github.com/CansenJIANG/SCBU
+ - This is the executable file for the results of a paper published in Pattern Recognition Letters in 2017, which supports the feature of foreground saving.
+
+
+About the Test Videos
 --------------------------------------------------------------------------------
 
-"woman.mp4"  is from    the    [FragTrack
-Website](http://www.cs.technion.ac.il/~amita/fragtrack/fragtrack.htm).   If  you
-use  it,  please   cite,  Amit  Adam,  Ehud  Rivlin,   Ilan  Shimshoni:  "Robust
-Fragments-based  Tracking  using the  Integral  Histogram."   Proc.  CVPR  2006,
-pp. 798-805
+The "woman.mp4" video was sourced from the [FragTrack Website](http://www.cs.technion.ac.il/~amita/fragtrack/fragtrack.htm). If you use this video, please cite the following paper: Amit Adam, Ehud Rivlin, Ilan Shimshoni. "Robust Fragments-based Tracking using the Integral Histogram." Proc. CVPR 2006, pp. 798-805.
 
-"continousPan.mp4"  is from    the    [Change detection dataset 2014](http://jacarini.dinf.usherbrooke.ca/dataset2014).   If  you
-use  it,  please   cite,  Amit  Adam,  Ehud  Rivlin,   Ilan  Shimshoni:  "Robust
-Fragments-based  Tracking  using the  Integral  Histogram."   Proc.  CVPR  2006,
-pp. 798-805
+The "continuousPan.mp4" video is part of the PTZ series from the [ChangeDetection2014 dataset](http://jacarini.dinf.usherbrooke.ca/dataset2014). If you utilize this video, please cite the following paper: Y. Wang, P.-M. Jodoin, F. Porikli, J. Konrad, Y. Benezeth, and P. Ishwar. "CDnet 2014: An Expanded Change Detection Benchmark Dataset." Proc. IEEE Workshop on Change Detection (CDW-2014) at CVPR-2014, pp. 387-394, 2014.
 
 
-}
 
-Important notice
+License and Citation
 --------------------------------------------------------------------------------
 
-* The code that we  ditributed earlier through e-mail had an  issue that it only
-  gave good results with MS compiler. There was a bug that abs function was used
-  instead of fabs (the floating point version)
+Copyright (c) 2023 Kimin Yun.
+All rights reserved.
 
-* This repository is  not finalized. The current version cannot  save results as
-  video,  and is  also  using  a very  old  open cv  style.   We  intend to  fix
-  these. Also, there are some redundant relics from old codes.
+This software is strictly for non-commercial use only due to institutional policies limiting the public disclosure of the source code. For commercial use or to acquire the source code or its usage rights, companies located in South Korea can process the technology transfer through the associated fees according to our institution policy. For more information about this process, please contact me at kimin.yun (at) gmail.com or kimin.yun (at) etri.re.kr.
 
-* Again, this repository is build from a very old backup I had. You can go ahead
-  an try,  as the detection  results won't change, but  bare in mind  that there
-  might be compiler related issues.
+Additionally, if this work contributes to your research and is used for academic purposes, please cite our paper as follows:
 
-How to compile and test
---------------------------------------------------------------------------------
-
-Simply use CMake and target the output directory as "build" in the same level as
-"src". In command line this would be (from the project root folder)
-
-> project_root >> mkdir build
-
-> project_root >> cd build
-
-> project_root/build >> cmake ..
-
-> project_root/build >> make
-
-Once it is built, you can try running
-
-> project_root/build >> ./fastMCD ../data/woman.mp4 0
-
-When using it as a part of your program
---------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-If this is helpful of your research, please cite the following paper entry (bibtex).
 
 ```BibTeX
-@article{yun2013BMem,
+@article{yun2023BMem,
   title={Background Memory Assisted Zero-Shot Video Object Segmentation for Unmanned Aerial and Ground Vehicles},
   author={Yun, Kimin and Hyungil, Bae, Kangmin and Moon, Jinyoung},
   journal={ETRI Journal},
