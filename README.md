@@ -4,7 +4,8 @@ This repository contains the windows binary (.exe) that produces the background 
 ViBe alogorithm is a background modeling method through the sample consensus, and it works well on the stationary camera.
 We extend this ViBe algorithm by adopting the motion compensation from the Homography calculated by two consecutive frames.
 
-Details are provided the following paper, and if this is helpful of your research, please cite the following paper entry (bibtex).
+Details are provided the following paper: <a href="https://dl.dropbox.com/s/dkto39ececze6l4/faster_V_39_eSE_ms_3x.pth">Link</a>
+If this is helpful of your research, please cite the following paper entry (bibtex).
 
 ```BibTeX
 @article{yun2013BMem,
@@ -26,17 +27,6 @@ Details are provided the following paper, and if this is helpful of your researc
 
 
 }
-
-
-Detection of  Moving Objects  with Non-stationary  Cameras in  5.8ms: Bringing Motion Detection to Your Mobile Device
-================================================================================
-
-This  Git repository  is an  implementation of  the paper  "Detection of  Moving
-Objects with Non-stationary Cameras in  5.8ms: Bringing Motion Detection to Your
-Mobile Device," Yi  et al, CVPRW 2013. These codes  should reproduce the results
-presented in the paper, with a bit  of tuning on the parameters. The results may
-differ a bit, as the variance update  equation was modified from the one used to
-produce results of the paper. However, they should not differ significantly.
 
 Important notice
 --------------------------------------------------------------------------------
