@@ -1,5 +1,32 @@
 # ViBe-H
-This repository contains the windows binary (.exe) contains 
+This repository contains the windows binary (.exe) that produces the background results of ViBe algorithm + Motion compensation via homography.
+
+ViBe alogorithm is a background modeling method through the sample consensus, and it works well on the stationary camera.
+We extend this ViBe algorithm by adopting the motion compensation from the Homography calculated by two consecutive frames.
+
+Details are provided the following paper, and if this is helpful of your research, please cite the following paper entry (bibtex).
+
+```BibTeX
+@article{yun2013BMem,
+  title={Background Memory Assisted Zero-Shot Video Object Segmentation for Unmanned Aerial and Ground Vehicles},
+  author={Yun, Kimin and Hyungil, Bae, Kangmin and Moon, Jinyoung},
+  journal={ETRI Journal},
+  year={2023},
+}
+
+@inproceedings{yun2021unsupervised,
+  title={Unsupervised moving object detection through background models for ptz camera},
+  author={Yun, Kimin, Kim, Hyungil, Bae, Kangmin and Park, Jongyoul},
+  booktitle={25th International Conference on Pattern Recognition (ICPR)},
+  pages={3201--3208},
+  year={2021},
+  organization={IEEE}
+}
+```
+
+
+}
+
 
 Detection of  Moving Objects  with Non-stationary  Cameras in  5.8ms: Bringing Motion Detection to Your Mobile Device
 ================================================================================
