@@ -10,13 +10,16 @@ Details are provided the following paper: <a href="">Link</a>
 About the test video
 --------------------------------------------------------------------------------
 
-The    test    video   is    the    woman    dataset   from    the    [FragTrack
+"woman.mp4"  is from    the    [FragTrack
 Website](http://www.cs.technion.ac.il/~amita/fragtrack/fragtrack.htm).   If  you
 use  it,  please   cite,  Amit  Adam,  Ehud  Rivlin,   Ilan  Shimshoni:  "Robust
 Fragments-based  Tracking  using the  Integral  Histogram."   Proc.  CVPR  2006,
 pp. 798-805
 
-
+"continousPan.mp4"  is from    the    [Change detection dataset 2014](http://jacarini.dinf.usherbrooke.ca/dataset2014).   If  you
+use  it,  please   cite,  Amit  Adam,  Ehud  Rivlin,   Ilan  Shimshoni:  "Robust
+Fragments-based  Tracking  using the  Integral  Histogram."   Proc.  CVPR  2006,
+pp. 798-805
 
 
 }
