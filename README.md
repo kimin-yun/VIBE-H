@@ -24,6 +24,10 @@ Example:
 vibeH.exe "woman.mp4" 0
 ```
 
+```bash
+vibeH.exe "continousPan.mp4" 1
+```
+
 Environment
 --------------------------------------------------------------------------------
 Windows OS, OpenCV 3.4.2
