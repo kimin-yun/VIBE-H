@@ -9,7 +9,9 @@ Further details regarding this implementation and results are described in our r
 
 Usage
 --------------------------------------------------------------------------------
-First, open your Windows terminal, navigate to the location where the .exe file is located, and execute the following command:
+First, unzip the "opencv_world341.zip" and put the "opencv_world341.dll" to same directiory.
+
+Then, open your Windows terminal, navigate to the location where the .exe file is located, and execute the following command:
 
 vibeH.exe <video_path> <option>
 
@@ -35,7 +37,6 @@ vibeH.exe "soapbox.mp4" 0
 Environment
 --------------------------------------------------------------------------------
 Windows OS, OpenCV 3.4.2. This code does not require a training procedure and GPU.
-
 
 Related Projects 
 --------------------------------------------------------------------------------
