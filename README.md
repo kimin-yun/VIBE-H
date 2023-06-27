@@ -30,9 +30,6 @@ vibeH.exe "woman.mp4" 0
 vibeH.exe "continuousPan.mp4" 1
 ```
 
-```bash
-vibeH.exe "soapbox.mp4" 0
-```
 
 Environment
 --------------------------------------------------------------------------------
@@ -54,9 +51,6 @@ About the Test Videos
 The "woman.mp4" video was sourced from the FragTrack. If you use this video, please cite the following paper: Amit Adam, Ehud Rivlin, Ilan Shimshoni. "Robust Fragments-based Tracking using the Integral Histogram." Proc. CVPR 2006, pp. 798-805.
 
 The "continuousPan.mp4" video is part of the PTZ series from the [ChangeDetection2014 dataset](http://jacarini.dinf.usherbrooke.ca/dataset2014). If you utilize this video, please cite the following paper: Y. Wang, P.-M. Jodoin, F. Porikli, J. Konrad, Y. Benezeth, and P. Ishwar. "CDnet 2014: An Expanded Change Detection Benchmark Dataset." Proc. IEEE Workshop on Change Detection (CDW-2014) at CVPR-2014, pp. 387-394, 2014.
-
-The "soapbox.mp4" video is part of [DAVIS dataset](https://davischallenge.org/davis2016/code.html). If you utilize this video, please cite the following paper: F. Perazzi, J. Pont-Tuset, B. McWilliams, L. Van Gool, M. Gross, and A. Sorkine-Hornung, "A Benchmark Dataset and Evaluation Methodology for Video Object Segmentation", Computer Vision and Pattern Recognition (CVPR) 2016.
-
 
 
 License and Citation
