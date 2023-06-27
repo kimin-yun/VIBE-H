@@ -25,7 +25,7 @@ vibeH.exe "woman.mp4" 0
 ```
 
 ```bash
-vibeH.exe "continousPan.mp4" 1
+vibeH.exe "continuousPan.mp4" 0
 ```
 
 Environment
