@@ -36,7 +36,7 @@ Related Projects
   - This is the base paper for our research, and the source code is publicly available (C++, Python).
 
 * https://github.com/CansenJIANG/SCBU
- - This is the executable file for the results of a paper published in Pattern Recognition Letters in 2017, which supports the feature of foreground saving.
+  - This is the executable file for the results of a paper published in Pattern Recognition Letters in 2017, which supports the feature of foreground saving.
 
 
 About the Test Videos
