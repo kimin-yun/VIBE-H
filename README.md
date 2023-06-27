@@ -4,7 +4,8 @@ This repository contains the windows binary (.exe) that produces the background 
 ViBe alogorithm is a background modeling method through the sample consensus, and it works well on the stationary camera.
 We extend this ViBe algorithm by adopting the motion compensation from the Homography calculated by two consecutive frames.
 
-Details are provided the following paper: <a href="https://dl.dropbox.com/s/dkto39ececze6l4/faster_V_39_eSE_ms_3x.pth">Link</a>
+Details are provided the following paper: <a href="">Link</a>
+
 If this is helpful of your research, please cite the following paper entry (bibtex).
 
 ```BibTeX
