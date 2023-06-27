@@ -2,7 +2,7 @@
 This repository houses the Windows executable (.exe) that implements the ViBe algorithm with additional motion compensation via homography, the foundation of our background results. 
 The ViBe algorithm is a robust background modeling method that operates based on sample consensus, performing optimally with stationary cameras. Our extension to this algorithm involves the integration of motion compensation derived from homography, calculated from two successive frames.
 
-Further details regarding this implementation are described in our research paper, available here: <a href="">Link</a>
+Further details regarding this implementation and results are described in our research paper, available here: <a href="">Link</a>
 
 
 
