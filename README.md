@@ -6,25 +6,17 @@ We extend this ViBe algorithm by adopting the motion compensation from the Homog
 
 Details are provided the following paper: <a href="">Link</a>
 
-If this is helpful of your research, please cite the following paper entry (bibtex).
 
-```BibTeX
-@article{yun2013BMem,
-  title={Background Memory Assisted Zero-Shot Video Object Segmentation for Unmanned Aerial and Ground Vehicles},
-  author={Yun, Kimin and Hyungil, Bae, Kangmin and Moon, Jinyoung},
-  journal={ETRI Journal},
-  year={2023},
-}
+About the test video
+--------------------------------------------------------------------------------
 
-@inproceedings{yun2021unsupervised,
-  title={Unsupervised moving object detection through background models for ptz camera},
-  author={Yun, Kimin, Kim, Hyungil, Bae, Kangmin and Park, Jongyoul},
-  booktitle={25th International Conference on Pattern Recognition (ICPR)},
-  pages={3201--3208},
-  year={2021},
-  organization={IEEE}
-}
-```
+The    test    video   is    the    woman    dataset   from    the    [FragTrack
+Website](http://www.cs.technion.ac.il/~amita/fragtrack/fragtrack.htm).   If  you
+use  it,  please   cite,  Amit  Adam,  Ehud  Rivlin,   Ilan  Shimshoni:  "Robust
+Fragments-based  Tracking  using the  Integral  Histogram."   Proc.  CVPR  2006,
+pp. 798-805
+
+
 
 
 }
@@ -65,41 +57,32 @@ Once it is built, you can try running
 When using it as a part of your program
 --------------------------------------------------------------------------------
 
-What you mostly need are only two files:
 
-> src/params.hpp
 
-> src/prob_model.hpp
 
-Usage is pretty straightforward. Simply init, motion compensate, and update.
 
-License
---------------------------------------------------------------------------------
 
-Copyright (c) 2016 Kwang Moo Yi.
 
-All rights reserved.
 
-This  software is  strictly for  non-commercial use  only.  For  commercial use,
-please  contact  me at  kwang.m.yi_at_gmail.com.   Also,  when used  for
-academic  purposes, please  cite the  paper  "Detection of  Moving Objects  with
-Non-stationary  Cameras  in 5.8ms:  Bringing  Motion  Detection to  Your  Mobile
-Device," Yi et al, CVPRW 2013 Redistribution and use for non-commercial purposes
-in  source and  binary forms  are permitted  provided that  the above  copyright
-notice  and  this paragraph  are  duplicated  in all  such  forms  and that  any
-documentation,  advertising  materials,  and  other materials  related  to  such
-distribution  and  use  acknowledge  that  the software  was  developed  by  the
-Perception and  Intelligence Lab,  Seoul National University.   The name  of the
-Perception and Intelligence Lab and Seoul National University may not be used to
-endorse or  promote products derived  from this software without  specific prior
-written  permission.   THIS SOFTWARE  IS  PROVIDED  ``AS  IS'' AND  WITHOUT  ANY
-WARRANTIES.  USE AT YOUR OWN RISK!
 
-About the test video
---------------------------------------------------------------------------------
 
-The    test    video   is    the    woman    dataset   from    the    [FragTrack
-Website](http://www.cs.technion.ac.il/~amita/fragtrack/fragtrack.htm).   If  you
-use  it,  please   cite,  Amit  Adam,  Ehud  Rivlin,   Ilan  Shimshoni:  "Robust
-Fragments-based  Tracking  using the  Integral  Histogram."   Proc.  CVPR  2006,
-pp. 798-805
+If this is helpful of your research, please cite the following paper entry (bibtex).
+
+```BibTeX
+@article{yun2013BMem,
+  title={Background Memory Assisted Zero-Shot Video Object Segmentation for Unmanned Aerial and Ground Vehicles},
+  author={Yun, Kimin and Hyungil, Bae, Kangmin and Moon, Jinyoung},
+  journal={ETRI Journal},
+  year={2023},
+}
+
+@inproceedings{yun2021unsupervised,
+  title={Unsupervised moving object detection through background models for ptz camera},
+  author={Yun, Kimin, Kim, Hyungil, Bae, Kangmin and Park, Jongyoul},
+  booktitle={25th International Conference on Pattern Recognition (ICPR)},
+  pages={3201--3208},
+  year={2021},
+  organization={IEEE}
+}
+```
+
