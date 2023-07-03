@@ -76,9 +76,7 @@ Additionally, if this work contributes to your research and is used for academic
   title={Unsupervised moving object detection through background models for ptz camera},
   author={Yun, Kimin, Kim, Hyungil, Bae, Kangmin and Park, Jongyoul},
   booktitle={25th International Conference on Pattern Recognition (ICPR)},
-  pages={3201--3208},
   year={2021},
-  organization={IEEE}
 }
 ```
 
