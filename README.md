@@ -66,15 +66,15 @@ Additionally, if this work contributes to your research and is used for academic
 
 ```BibTeX
 @article{yun2023BMem,
-  title={Background Memory Assisted Zero-Shot Video Object Segmentation for Unmanned Aerial and Ground Vehicles},
-  author={Yun, Kimin and Hyungil, Bae, Kangmin and Moon, Jinyoung},
+  title={Background memory-assisted zero-shot video object segmentation for unmanned aerial and ground vehicles},
+  author={Kimin Yun, Hyungil Kim, Kangmin Bae, and Jinyoung Moon},
   journal={ETRI Journal},
   year={2023},
 }
 
 @inproceedings{yun2021unsupervised,
   title={Unsupervised moving object detection through background models for ptz camera},
-  author={Yun, Kimin, Kim, Hyungil, Bae, Kangmin and Park, Jongyoul},
+  author={Kimin Yun, Hyungil Kim, Kangmin Bae, and Jongyoul Park},
   booktitle={25th International Conference on Pattern Recognition (ICPR)},
   year={2021},
 }
