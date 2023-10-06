@@ -32,11 +32,7 @@ vibeH.exe "continuousPan.mp4" 1
 
 Results
 --------------------------------------------------------------------------------
-It generates the original image, background, foreground, and coarse optical flow. For more details, please refer to this paper([ETRIJ-BMemVOS](http://).
-
-![outputs](https://github.com/kimin-yun/VIBE-H/assets/28855331/44551be1-cfc9-462c-905c-a66132d1b9d6)
-
-
+It generates the original image, background, foreground, and coarse optical flow. For more details, please refer to this paper([ETRIJ-BMemVOS](https://onlinelibrary.wiley.com/doi/10.4218/etrij.2023-0115)).
 
 
 Environment
