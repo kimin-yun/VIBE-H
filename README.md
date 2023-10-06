@@ -34,6 +34,8 @@ Results
 --------------------------------------------------------------------------------
 It generates the original image, background, foreground, and coarse optical flow. For more details, please refer to this paper([ETRIJ-BMemVOS](https://onlinelibrary.wiley.com/doi/10.4218/etrij.2023-0115)).
 
+![Example images](./etr212610-fig-0005-m.jpg)
+
 
 Environment
 --------------------------------------------------------------------------------
